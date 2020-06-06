@@ -416,8 +416,9 @@ li > a:only-child:after {
 	/* text-transform: capitalize; */
 }
 img#logoDreamBanner{
-    width: 15%;
-    float: right;
+    width: 20%;
+    /* float: right; */
+    margin-left: 7%;
 }
 /* //banner */
 .n-right-w3ls .form-group input.form-control.submit {
@@ -549,7 +550,8 @@ figure {
 }
 .events-right h4 {
     font-size: 20px;
-	color: #343a40;
+    color: #343a40;
+    text-align: right;
 }
 .events-right ul li span {
     color:#000000;
@@ -560,6 +562,7 @@ figure {
 }
 .list-unstyled {
     color: #777;
+    text-align: right;
 }                                                                             
 /* video and event section */
 /* testimonials */
@@ -583,7 +586,17 @@ figure {
 footer {
 	background-color: #0e0f10;
 }
-
+#icono-whats{
+    width: 25px;
+    margin-right: 3%;
+}
+.phone, .phone a {
+    color: white;
+}
+.phone a:hover{
+    color: #3EE3E4;
+    
+}
 footer h3{
 	font-size: 1.5em;
 	color: #ffffff;
