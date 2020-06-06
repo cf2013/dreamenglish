@@ -110,7 +110,6 @@ ul.menu {
 }
 .logo h1 a {
     font-family: 'Ubuntu', sans-serif;
-    text-transform: capitalize;
     font-weight: 600;
     font-size: 0.9em;
     letter-spacing: 1px;
@@ -150,7 +149,6 @@ nav ul li {
 
 nav a {
      font-weight: 600;
-    text-transform: capitalize;
     color: #fff;
     padding: 4px 15px;
     letter-spacing: 1px;
@@ -412,7 +410,6 @@ li > a:only-child:after {
 .slider-bottom-lft h4 {
     color: #fff;
     letter-spacing: 2px;
-	text-transform: capitalize;
 }
 img#logoDreamBanner{
     width: 15%;
@@ -443,7 +440,6 @@ img#logoDreamBanner{
     letter-spacing: 2px;
     font-size: 40px;
     color: rgb(211, 4, 166);
-    text-transform: capitalize;
     position: relative;
     margin-top: 0;
 }
@@ -695,7 +691,6 @@ img.logoFooter{
     font-size: 1.3em;
     line-height: 1.71;
     letter-spacing: 1px;
-    text-transform: capitalize;
     color: #fff;
 }
 .phone p a:hover {
@@ -714,7 +709,6 @@ img.logoFooter{
 .typo-wthree h4 {
 	color:#000000;
 	font-size: 1.5em;
-	text-transform: capitalize;
 }
 .bg-flex {
     background-color: #af3c29;
@@ -941,7 +935,6 @@ img.logoFooter{
 .agileits-services-grids h4 {
     font-size: 1.3em;
     color: #000;
-    text-transform: capitalize;
     line-height: 1.5em;
     letter-spacing: 2px;
     font-weight: 600;
