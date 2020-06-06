@@ -110,6 +110,7 @@ ul.menu {
 }
 .logo h1 a {
     font-family: 'Ubuntu', sans-serif;
+    /* text-transform: capitalize; */
     font-weight: 600;
     font-size: 0.9em;
     letter-spacing: 1px;
@@ -149,6 +150,7 @@ nav ul li {
 
 nav a {
      font-weight: 600;
+    /* text-transform: capitalize; */
     color: #fff;
     padding: 4px 15px;
     letter-spacing: 1px;
@@ -403,6 +405,7 @@ li > a:only-child:after {
 
 .slider-info h3 {
 	font-size: 2.3em;
+	/* text-transform: capitalize; */
 	color: #fff;
 	font-weight: 600;
 }
@@ -410,6 +413,7 @@ li > a:only-child:after {
 .slider-bottom-lft h4 {
     color: #fff;
     letter-spacing: 2px;
+	/* text-transform: capitalize; */
 }
 img#logoDreamBanner{
     width: 15%;
@@ -417,8 +421,8 @@ img#logoDreamBanner{
 }
 /* //banner */
 .n-right-w3ls .form-group input.form-control.submit {
-    background: #7ed0ff;
-    border: 1px solid #7ed0ff;
+    background: #3ee3e4;
+    border: 1px solid #3ee3e4;
     color: #fff;
     font-size: 1em;
     font-weight: 500;
@@ -440,6 +444,7 @@ img#logoDreamBanner{
     letter-spacing: 2px;
     font-size: 40px;
     color: rgb(211, 4, 166);
+    /* text-transform: capitalize; */
     position: relative;
     margin-top: 0;
 }
@@ -513,13 +518,11 @@ figure {
 }
 
 .mis-stage h6 {
-    color: #2e1f54;
+    color: #fff;
     font-size: 1em;
     margin-top: 1em;
     letter-spacing: 1px;
-    text-align: center;
-    Font-weight: 900;
-    Font-family: lato;
+	text-align: center;
 }
 .more-services h4 {
     font-size: 1.3em;
@@ -530,7 +533,7 @@ figure {
 .more-services p {
     color: #777;
     text-align: center;
-    margin-bottom: 1em;
+    margin-bottom: 1em 0;
 }
 .events-up h5 {
     font-size: 20px;
@@ -571,6 +574,9 @@ figure {
 }
 .testimonials h3{
 	color: #fff;
+}
+.formaRemota{
+    background-color: rgba(0, 0, 0, .5);
 }
 /* //testimonials */
 /* footer */
@@ -691,6 +697,7 @@ img.logoFooter{
     font-size: 1.3em;
     line-height: 1.71;
     letter-spacing: 1px;
+    /* text-transform: capitalize; */
     color: #fff;
 }
 .phone p a:hover {
@@ -709,6 +716,7 @@ img.logoFooter{
 .typo-wthree h4 {
 	color:#000000;
 	font-size: 1.5em;
+	/* text-transform: capitalize; */
 }
 .bg-flex {
     background-color: #af3c29;
@@ -935,6 +943,7 @@ img.logoFooter{
 .agileits-services-grids h4 {
     font-size: 1.3em;
     color: #000;
+    /* text-transform: capitalize; */
     line-height: 1.5em;
     letter-spacing: 2px;
     font-weight: 600;
@@ -974,7 +983,7 @@ a.service-btn {
     background: #3ee3e4;
     color: #fff;
     font-size: 14px;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
     padding: 6px 15px;
     display: inline-block;
     margin: 18px 0 0;
