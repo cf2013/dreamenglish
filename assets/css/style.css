@@ -37,7 +37,7 @@ h6 {
 p {
 	margin: 0;
 	color: #333;
-	font-size: 1em;
+	font-size: 1.1em;
 	line-height: 1.8;
 }
 
@@ -392,11 +392,22 @@ li > a:only-child:after {
 	background-size: cover;
 	position: relative;
 }
+.bannerAbout{
+    background: url(../imgs/photo-of-woman-teaching-his-son.jpg) center no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-ms-background-size: cover;
+	background-size: cover;
+	position: relative;
+}
 .banner-text {
 	padding: 15vw 0 16vw;
 	box-sizing: border-box;
 }
-
+.banner_bottom p{
+    font-size: 1.3em;;
+}
 .slider-info {
     text-align: right;
     width: 560px;
@@ -416,8 +427,9 @@ li > a:only-child:after {
 	/* text-transform: capitalize; */
 }
 img#logoDreamBanner{
-    width: 15%;
-    float: right;
+    width: 20%;
+    /* float: right; */
+    margin-left: 7%;
 }
 /* //banner */
 .n-right-w3ls .form-group input.form-control.submit {
@@ -549,7 +561,8 @@ figure {
 }
 .events-right h4 {
     font-size: 20px;
-	color: #343a40;
+    color: #343a40;
+    text-align: right;
 }
 .events-right ul li span {
     color:#000000;
@@ -560,6 +573,7 @@ figure {
 }
 .list-unstyled {
     color: #777;
+    text-align: right;
 }                                                                             
 /* video and event section */
 /* testimonials */
@@ -583,7 +597,17 @@ figure {
 footer {
 	background-color: #0e0f10;
 }
-
+#icono-whats{
+    width: 25px;
+    margin-right: 3%;
+}
+.phone, .phone a {
+    color: white;
+}
+.phone a:hover{
+    color: #3EE3E4;
+    
+}
 footer h3{
 	font-size: 1.5em;
 	color: #ffffff;
