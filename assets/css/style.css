@@ -222,13 +222,27 @@ nav ul ul ul li {
 li > a:only-child:after {
     content: '';
 }
-
-
+ul.social-media{
+    display: inline-flex;
+}
+.social-media>div{
+    display: inline-flex;
+}
+.social-media> div>li{
+    margin:2rem;
+}
+.social-media>li>h4{
+    color: white;
+    text-align: end;
+}
+.img-sm{
+    width: 4rem;
+}
 /* Media Queries
 --------------------------------------------- */
 
 @media all and (max-width: 768px) {
-
+    
     #logo {
         display: block;
         padding: 0;
@@ -257,7 +271,6 @@ li > a:only-child:after {
     text-decoration: none;
     border: none;
     float: right;
-    background-color: #ffffff;
     color: #333;
     cursor: pointer;
 }
@@ -353,7 +366,9 @@ li > a:only-child:after {
 }
 
 @media all and (max-width: 330px) {
-
+    ul.social-media{
+        display: block;
+    }
     nav ul li {
         display: block;
         width: 94%;
@@ -427,11 +442,20 @@ li > a:only-child:after {
 	/* text-transform: capitalize; */
 }
 img#logoDreamBanner{
-    width: 20%;
+    width: 30%;
     /* float: right; */
     margin-left: 7%;
 }
 /* //banner */
+.social-media{
+    display: block;
+}
+.social-media>li{
+    margin: 1rem;
+}
+.img-sm{
+    width: 3rem;
+}
 .n-right-w3ls .form-group input.form-control.submit {
     background: #7ed0ff;
     border: 1px solid #7ed0ff;
@@ -1325,6 +1349,9 @@ section.agile_stats p{
 }
 
 @media screen and (max-width: 991px) {
+    .banner-text{
+        padding: 33vw 0 16vw;
+    }
 	.navbar-collapse {
 		background: #000;
 		padding: 1em;
@@ -1380,18 +1407,28 @@ p.vam {
 	}
 	nav a {
     padding: 0px 7px;
-}
+    }
+    ul.social-media {
+        display: inline-flex;
+    }
 }
 @media screen and (max-width: 768px) {
+    ul.social-media {
+        display: block;
+    }
 .slider-info h3 {
     font-size: 2.5em;
 }
 .navbar-light {
     padding: 1.3em 1em;
 }
+
 }
 
 @media screen and (max-width: 736px) {
+    ul.social-media {
+        display: block;
+    }
 	.slider-info {
 		width: 547px;
 		padding-top: 3em;
@@ -1423,6 +1460,9 @@ p.vam {
 }
 }
 @media screen and (max-width: 667px) {
+    ul.social-media {
+        display: block;
+    }
 	.slider-info h3 {
 		font-size: 2.3em;
 	}
@@ -1434,8 +1474,12 @@ p.vam {
 @media screen and (max-width: 640px) {}
 
 @media screen and (max-width: 600px) {
+    ul.social-media{
+        display: block;
+    }
 	.slider-info {
-		width: auto;
+        width: auto;
+        margin-top: 10%;
 	}
 	.slider-info h3 {
 		font-size: 2.3em;
@@ -1443,6 +1487,9 @@ p.vam {
 }
 
 @media screen and (max-width: 568px) {
+    ul.social-media{
+        display: block;
+    }
 	.slider-info h3 {
 		font-size: 1.8em;
 	}
@@ -1465,6 +1512,9 @@ p.vam {
 }
 
 @media screen and (max-width: 480px) {
+    ul.social-media{
+        display: block;
+    }
 .caption {
     width: 71%;
 	left:69px;
@@ -1475,6 +1525,9 @@ p.vam {
 }
 
 @media screen and (max-width: 440px) {
+    ul.social-media{
+        display: block;
+    }
 	a.navbar-brand i {
 		font-size: 1.5em;
 	}
@@ -1493,6 +1546,9 @@ h4.timer {
 }
 }
 @media screen and (max-width: 414px) {
+    ul.social-media{
+        display: block;
+    }
 .caption {
     width: 83%;
 	left:36px;
