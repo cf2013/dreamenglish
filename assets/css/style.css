@@ -442,9 +442,9 @@ ul.social-media{
 	/* text-transform: capitalize; */
 }
 img#logoDreamBanner{
-    width: 30%;
-    /* float: right; */
-    margin-left: 7%;
+    width: 25%;
+    float: left;
+    height: 100%;
 }
 /* //banner */
 .social-media{
@@ -454,7 +454,7 @@ img#logoDreamBanner{
     margin: 1rem;
 }
 .img-sm{
-    width: 3rem;
+    width: 2rem;
 }
 .n-right-w3ls .form-group input.form-control.submit {
     background: #7ed0ff;
@@ -1310,7 +1310,12 @@ section.agile_stats p{
 @media screen and (max-width: 1600px) {}
 
 @media screen and (max-width: 1440px) {}
-
+img#logoDreamBanner{
+    width: 38%;
+}
+.img-sm {
+    width: 3rem;
+}
 @media screen and (max-width: 1366px) {}
 
 @media screen and (max-width: 1280px) {
