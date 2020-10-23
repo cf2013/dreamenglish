@@ -222,16 +222,19 @@ nav ul ul ul li {
 li > a:only-child:after {
     content: '';
 }
+.contactanos-media>ul>li{
+    margin: 1rem;;
+}
 ul.social-media{
     display: inline-flex;
 }
-.social-media>div{
+ul.social-media>div{
     display: inline-flex;
 }
-.social-media> div>li{
+ul.social-media>div>div{
     margin:2rem;
 }
-.social-media>li>h5{
+ul.social-media>div>h5{
     color: white;
     text-align: end;
 }
@@ -440,7 +443,10 @@ ul.social-media{
 .slider-bottom-lft h4 {
     color: #fff;
     letter-spacing: 2px;
-	/* text-transform: capitalize; */
+    /* text-transform: capitalize; */
+}
+.slider-bottom-lft{
+    display: inline-flex;
 }
 img#logoDreamBanner{
     width: 25%;
@@ -1331,19 +1337,22 @@ img#logoDreamBanner{
 	}
 	.inner-banner {
     min-height: 280px;
-}
-.section-4 {
-    padding-left: 2em;
-}
-.section-5 {
-    padding-right: 2em;
-}
-.slider-bottom-lft h4 {
-    letter-spacing: 1px;
-}
-.navbar-light {
-    padding: 1.3em 3em;
-}
+    }
+    .section-4 {
+        padding-left: 2em;
+    }
+    .section-5 {
+        padding-right: 2em;
+    }
+    .slider-bottom-lft h4 {
+        letter-spacing: 1px;
+    }
+    .navbar-light {
+        padding: 1.3em 3em;
+    }
+    .slider-bottom-lft{
+        display: block;
+    }
 }
 
 @media screen and (max-width: 1050px) {}
