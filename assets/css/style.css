@@ -231,7 +231,7 @@ ul.social-media{
 .social-media> div>li{
     margin:2rem;
 }
-.social-media>li>h4{
+.social-media>li>h5{
     color: white;
     text-align: end;
 }
@@ -273,6 +273,7 @@ ul.social-media{
     float: right;
     color: #333;
     cursor: pointer;
+    filter: invert(1);
 }
     .menu .toggle {
         float: none;
