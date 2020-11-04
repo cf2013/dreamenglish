@@ -688,10 +688,13 @@ footer ul li.hd {
 	background-color: #F4F4F4;
 	border: none;
 }
-
+.img-fluid-2{
+    max-width: 90%;
+    height: auto;
+}
 .flickr-grid {
 	float: left;
-	width: 32%;
+	width: 45%;
 	margin: 0 0.1em .2em;
 }
 
