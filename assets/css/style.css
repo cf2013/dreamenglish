@@ -1317,15 +1317,87 @@ section.agile_stats p{
 }
 /* -- Responsive code -- */
 
-@media screen and (max-width: 1600px) {}
+@media (min-width:1441px) and (max-width: 2600px) {
 
-@media screen and (max-width: 1440px) {}
-img#logoDreamBanner{
+    img#logoDreamBanner{
+        width: 30%;
+    }
+    .logo h1 a {
+        font-size: 3rem;;
+    }
+    ul.menu{
+        font-size: 2rem;
+    }
+    .banner-text{
+        padding: 10vw 0px 10vw;
+    }
+    .container {
+        max-width: 1800px;
+    }
+    .slider-info{
+        width: 60%;
+    }
+    img#logoDreamBanner {
+        width: 20%;
+        margin-left: 6rem;
+    }
+    .slider-info h3{
+        font-size: 3.5rem;
+    }
+    .slider-bottom-lft h4 {
+        font-size: 2.5rem;
+    }
+    .slider-bottom p, .slider-bottom h5{
+        font-size: 2rem;
+    }
+    .img-sm {
+        width: 4.5rem;
+    }
+    .heading-agileinfo{
+        font-size: 4rem;
+    }
+    p, .mis-stage h6, li.my-2{
+        font-size: 2rem;
+    }
+    .more-services h4, .events-right h4{
+        font-size: 3rem;
+    }
+    .events-right ul li, h4.Cur {
+        font-size: 2.5rem;
+    }
+    .agil_mor a{
+        font-size: 2em;
+    }
+    figure{
+        text-align: center;
+    }
+    .more-services p{
+        text-align: initial;
+    }
+    footer h3{
+        font-size: 2.6em;
+    }
+    footer p{
+        font-size: 1.2rem;
+    }
+    img.logoFooter {
+        width: 50px;
+        height: 50px;
+    }
+}
+@media screen and (max-width: 1440px) {
+    img#logoDreamBanner{
     width: 38%;
+    }
+    .img-sm {
+        width: 3rem;
+    }
+    .container {
+        max-width: 1300px;
+    }
+    
 }
-.img-sm {
-    width: 3rem;
-}
+
 @media screen and (max-width: 1366px) {}
 
 @media screen and (max-width: 1280px) {
@@ -1379,44 +1451,44 @@ img#logoDreamBanner{
 	}
 	.inner-banner {
     min-height: 280px;
-}
-.heading-agileinfo {
-    font-size: 35px;
-}
-.copyrightbottom {
-    float: none;
-    text-align: center;
-}
-.copyrighttop {
-    float: none;
-    text-align: center;
-    margin-bottom: 1em;
-}
-.banner_bottom_left {
-    margin-top: 1em;
-}
-.caption {
-    width: 83.5%;
-}
-p.vam {
-    margin: 2em 0 2em;
-}
-.section-4 {
-    padding-left: 1em;
-	margin-top: 1.5em;
-}
-.section-5 {
-    padding-right: 1em;
-    margin-bottom: 1.5em;
-}
-.video {
-    margin-top: 1.5em;
-}
+    }
+    .heading-agileinfo {
+        font-size: 35px;
+    }
+    .copyrightbottom {
+        float: none;
+        text-align: center;
+    }
+    .copyrighttop {
+        float: none;
+        text-align: center;
+        margin-bottom: 1em;
+    }
+    .banner_bottom_left {
+        margin-top: 1em;
+    }
+    .caption {
+        width: 83.5%;
+    }
+    p.vam {
+        margin: 2em 0 2em;
+    }
+    .section-4 {
+        padding-left: 1em;
+        margin-top: 1.5em;
+    }
+    .section-5 {
+        padding-right: 1em;
+        margin-bottom: 1.5em;
+    }
+    .video {
+        margin-top: 1.5em;
+    }
 }
 @media screen and (max-width: 900px) {
 	.navbar-light {
     padding: 1.3em 0em;
-}
+    }
 }
 
 @media screen and (max-width: 800px) {
@@ -1434,12 +1506,12 @@ p.vam {
     ul.social-media {
         display: block;
     }
-.slider-info h3 {
-    font-size: 2.5em;
-}
-.navbar-light {
-    padding: 1.3em 1em;
-}
+    .slider-info h3 {
+        font-size: 2.5em;
+    }
+    .navbar-light {
+        padding: 1.3em 1em;
+    }
 
 }
 
@@ -1453,29 +1525,29 @@ p.vam {
 	}
 	.card-deck .card {
     flex: auto;
-}
-.card:nth-child(2) {
-	margin-top:1.5em;
-	margin-bottom:1.5em;
-}
-.footer-grid:nth-child(2){
-	margin:1.5em 0;
-}
-.gal-sec:nth-child(2){
-	margin:1.7em 0;
-}
-.caption {
-    width: 77.5%;
-}
-.team-text h4 {
-    padding: 5px 0;
-}
-.slider-bottom-lft {
-    margin-bottom: 1em;
-}
-.popup {
-    width: 80%;
-}
+    }
+    .card:nth-child(2) {
+        margin-top:1.5em;
+        margin-bottom:1.5em;
+    }
+    .footer-grid:nth-child(2){
+        margin:1.5em 0;
+    }
+    .gal-sec:nth-child(2){
+        margin:1.7em 0;
+    }
+    .caption {
+        width: 77.5%;
+    }
+    .team-text h4 {
+        padding: 5px 0;
+    }
+    .slider-bottom-lft {
+        margin-bottom: 1em;
+    }
+    .popup {
+        width: 80%;
+    }
 }
 @media screen and (max-width: 667px) {
     ul.social-media {
@@ -1486,7 +1558,7 @@ p.vam {
 	}
 	.inner-banner {
     min-height: 230px;
-}
+    }
 }
 
 @media screen and (max-width: 640px) {}
@@ -1513,33 +1585,33 @@ p.vam {
 	}
 	.inner-banner {
     min-height: 210px;
-}
-.navbar-light {
-    padding: 1em 1em;
-}
-.team-grid {
-    text-align: center;
-}
-.caption {
-    width: 60%;
-	left:113px;
-}
-.banner-text {
-    padding: 20vw 0 12vw;
-}
+    }
+    .navbar-light {
+        padding: 1em 1em;
+    }
+    .team-grid {
+        text-align: center;
+    }
+    .caption {
+        width: 60%;
+        left:113px;
+    }
+    .banner-text {
+        padding: 20vw 0 12vw;
+    }
 }
 
 @media screen and (max-width: 480px) {
     ul.social-media{
         display: block;
     }
-.caption {
-    width: 71%;
-	left:69px;
-}
-.banner-top.pb-5 {
-    padding-bottom: 1em !important;
-}
+    .caption {
+        width: 71%;
+        left:69px;
+    }
+    .banner-top.pb-5 {
+        padding-bottom: 1em !important;
+    }
 }
 
 @media screen and (max-width: 440px) {
@@ -1552,41 +1624,41 @@ p.vam {
 	.caption {
     width: 78%;
 	left:49px;
-}
-.h4.timer {
-    font-size: 2.5em;
-}
-.banner_bottom_left h4 {
-    font-size: 1.3em;
-}
-h4.timer {
-    font-size: 2.5em;
-}
+    }
+    .h4.timer {
+        font-size: 2.5em;
+    }
+    .banner_bottom_left h4 {
+        font-size: 1.3em;
+    }
+    h4.timer {
+        font-size: 2.5em;
+    }
 }
 @media screen and (max-width: 414px) {
     ul.social-media{
         display: block;
     }
-.caption {
-    width: 83%;
-	left:36px;
-}
+    .caption {
+        width: 83%;
+        left:36px;
+    }
 }
 @media screen and (max-width: 384px) {
-.inner-banner {
-    min-height: 160px;
-}
-.slider-info h3 {
-    font-size: 1.5em;
-}
-.contact_grid_right input[type="submit"], .contact_grid_right input[type="reset"] {
-    padding: 14px 0;
-	width: 28%;
-}
-.caption {
-    width: 89%;
-	left:21px;
-}
+    .inner-banner {
+        min-height: 160px;
+    }
+    .slider-info h3 {
+        font-size: 1.5em;
+    }
+    .contact_grid_right input[type="submit"], .contact_grid_right input[type="reset"] {
+        padding: 14px 0;
+        width: 28%;
+    }
+    .caption {
+        width: 89%;
+        left:21px;
+    }
 }
 
 @media screen and (max-width: 375px) {
@@ -1596,55 +1668,55 @@ h4.timer {
 }
 
 @media screen and (max-width: 320px) {
-.inner-banner {
-    min-height: 140px;
-}
-.slider-info h3 {
-		font-size: 1.3em;
-	}
-	footer h3 {
-    font-size: 1.3em;
-}
-.heading-agileinfo {
-    font-size: 30px;
-	letter-spacing:0;
-}
-a.navbar-brand {
-    font-size: 0.7em;
-}
-.caption {
-    width: 87%;
-}
-.h4.timer {
-    font-size: 2em;
-}
-.banner_bottom_left h4 {
-    font-size: 1.2em;
-}
-figure.effect-layla figcaption::before {
+    .inner-banner {
+        min-height: 140px;
+    }
+    .slider-info h3 {
+        font-size: 1.3em;
+    }
+    footer h3 {
+        font-size: 1.3em;
+    }
+    .heading-agileinfo {
+        font-size: 30px;
+        letter-spacing:0;
+    }
+    a.navbar-brand {
+        font-size: 0.7em;
+    }
+    .caption {
+        width: 87%;
+    }
+    .h4.timer {
+        font-size: 2em;
+    }
+    .banner_bottom_left h4 {
+        font-size: 1.2em;
+    }
+    figure.effect-layla figcaption::before {
+        top: 10px;
+        right: 10px;
+        bottom: 10px;
+        left: 10px;
+    }
+    figure.effect-layla figcaption::after {
     top: 10px;
-    right: 10px;
-    bottom: 10px;
-    left: 10px;
-}
-figure.effect-layla figcaption::after {
-   top: 10px;
-    right: 10px;
-    bottom: 10px;
-    left: 10px;
-}
-p.vam {
-    margin: 1em 0 1em;
-}
-.events-right h4 {
-    font-size: 19px;
-}
-.navbar-light {
-    padding: 1em 0.7em;
-}
-.logo h1 a {
-    font-size: 0.7em;
-    letter-spacing: 0px;
-}
+        right: 10px;
+        bottom: 10px;
+        left: 10px;
+    }
+    p.vam {
+        margin: 1em 0 1em;
+    }
+    .events-right h4 {
+        font-size: 19px;
+    }
+    .navbar-light {
+        padding: 1em 0.7em;
+    }
+    .logo h1 a {
+        font-size: 0.7em;
+        letter-spacing: 0px;
+    }
 }
 /* -- //Responsive code -- */
