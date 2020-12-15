@@ -623,6 +623,30 @@ figure {
 .formaRemota{
     background-color: rgba(0, 0, 0, .5);
 }
+.opinionesAlumnos{
+    background-color: rgba(144, 143, 155, 0.514);
+}
+
+.testimonials-2{
+    background: url(../imgs/typewriter.jpg) no-repeat center fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+}
+.testimonials-2 h3{
+    font-weight: 800;
+    color:black;
+}
+.testimonials-2 h6{
+    color: rgb(4, 21, 32);
+    text-align: justify ;
+}
+.testimonials-2 p{
+    color: white;
+    font-weight: 500;
+}
 /* //testimonials */
 /* footer */
 footer {
