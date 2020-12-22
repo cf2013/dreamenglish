@@ -222,8 +222,14 @@ nav ul ul ul li {
 li > a:only-child:after {
     content: '';
 }
+.facebook-img, .insta-img{
+    display: none;
+}
 .contactanos-media>ul>li{
     margin: 1rem;;
+}
+p.siguenos{
+    display: none;
 }
 ul.social-media{
     display: inline-flex;
@@ -570,6 +576,10 @@ figure {
     margin: 0 0 1rem;
     background: #f1f1f1;
     padding: 1em;
+    text-align: center;
+}
+figure img{
+    width: 11rem;
 }
 
 .mis-stage h6 {
@@ -579,6 +589,9 @@ figure {
     letter-spacing: 1px;
 	text-align: center;
 }
+.more-services-1 figure{
+    text-align: center;
+}
 .more-services h4 {
     font-size: 1.3em;
     color: #3ee3e4;
@@ -587,7 +600,7 @@ figure {
 }
 .more-services p {
     color: #777;
-    text-align: center;
+    text-align: start;
     margin-bottom: 1em 0;
 }
 .events-up h5 {
@@ -653,7 +666,7 @@ figure {
 }
 .testimonials-2 h6{
     color: rgb(4, 21, 32);
-    text-align: justify ;
+    text-align: start ;
 }
 .testimonials-2 p{
     color: white;
@@ -724,6 +737,7 @@ footer ul li.hd {
 	background-color: #F4F4F4;
 	border: none;
 }
+
 .img-fluid-2{
     max-width: 90%;
     height: auto;
@@ -1537,10 +1551,19 @@ section.agile_stats p{
     ul.social-media {
         display: inline-flex;
     }
+    .title-section{
+        padding-top: 3rem;
+        padding-bottom: 0rem!important;
+    }
 }
-@media screen and (max-width: 768px) {
+@media (min-width:737px) and (max-width: 768px) {
     ul.social-media {
         display: block;
+    }
+    .mis-stage{
+        margin-top: 3rem;
+        margin-left: 3rem;
+        margin-right: 3rem;
     }
     .slider-info h3 {
         font-size: 2.5em;
@@ -1548,7 +1571,9 @@ section.agile_stats p{
     .navbar-light {
         padding: 1.3em 1em;
     }
-
+    .container{
+        padding-top: 0rem;
+    }
 }
 
 @media screen and (max-width: 736px) {
@@ -1633,7 +1658,7 @@ section.agile_stats p{
         left:113px;
     }
     .banner-text {
-        padding: 20vw 0 12vw;
+        padding: 44vw 0 12vw;
     }
 }
 
@@ -1648,12 +1673,41 @@ section.agile_stats p{
     .banner-top.pb-5 {
         padding-bottom: 1em !important;
     }
+    .more-services img.img-fluid{
+        height: 15rem!important;
+        width: 70%;
+    }
+    .mis-stage h6 {
+        font-size: 0.8em;
+        font-weight: 500;
+    }
+    .img-sm {
+        width: 2rem;
+    }
+    h4, .h4 {
+        font-size: 1.2rem;
+    }
+    h5{
+        font-size: 0.8em;
+        font-weight: 100;
+    }
+    p{
+        font-size: 0.9em;
+    }
+    p.siguenos{
+        display: block;
+        color: white;
+    }
+    ul.social-media{
+        display: none;
+    }
+    .facebook-img, .insta-img{
+        display: block;
+    }
 }
 
 @media screen and (max-width: 440px) {
-    ul.social-media{
-        display: block;
-    }
+    
 	a.navbar-brand i {
 		font-size: 1.5em;
 	}
@@ -1672,9 +1726,7 @@ section.agile_stats p{
     }
 }
 @media screen and (max-width: 414px) {
-    ul.social-media{
-        display: block;
-    }
+    
     .caption {
         width: 83%;
         left:36px;
