@@ -403,7 +403,8 @@ ul.social-media>div>h5{
 /* banner */
 
 .banner {
-	background: url(../imgs/woman-writing-on-ipad.jpg) center no-repeat;
+    /* background: url(../imgs/woman-writing-on-ipad.jpg) center no-repeat; */
+    background: url(../imgs/home-office-4980353_1920.jpg) center no-repeat;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -421,8 +422,17 @@ ul.social-media>div>h5{
 	position: relative;
 }
 .banner-text {
-	padding: 15vw 0 16vw;
+	padding: 15vw 0 10vw;
 	box-sizing: border-box;
+}
+.banner-top>.slider-bottom, nav{
+    background-color: #000000a1;
+}
+.social-media, .contacta{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
 }
 .banner_bottom p{
     font-size: 1.3em;;
@@ -431,6 +441,8 @@ ul.social-media>div>h5{
     text-align: right;
     width: 560px;
     margin-left: auto;
+    background: #706e6e9e;
+    height: 10rem;
 }
 
 .slider-info h3 {
@@ -1355,9 +1367,9 @@ section.agile_stats p{
     .banner-text{
         padding: 10vw 0px 10vw;
     }
-    .container {
+    /* .container {
         max-width: 1800px;
-    }
+    } */
     .slider-info{
         width: 60%;
     }
