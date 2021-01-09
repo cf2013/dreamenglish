@@ -247,6 +247,28 @@ ul.social-media>div>h5{
 .img-sm{
     width: 4rem;
 }
+.iconos-pago{
+    margin: auto;
+    text-align: center;
+}
+.iconos-pago li{
+    padding: 3rem;
+}
+.iconos-pago a{
+    border: 1px solid #D304A6;
+    width: 13rem;
+    border-radius: 5px;
+    background: #D304A6;
+    color: white;
+}
+.metodosdepago{
+    background: #3EE3E4;
+    width: 80%;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-size: 40px;
+}
 /* Media Queries
 --------------------------------------------- */
 
