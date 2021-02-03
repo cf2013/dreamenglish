@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\proyectos git\\dreamenglish"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "dreamenglish"
+	}
+}
