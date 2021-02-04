@@ -272,7 +272,7 @@ ul {
     padding: 0rem 2rem;
 }
 .textClubText{
-	padding: 2.6rem;
+	padding: 3.5rem;
 	text-align: justify;
 	font-family: ralewayBold;
 }
@@ -564,7 +564,9 @@ img.logoGonvill {
 	}
  }
  @media(min-width:601px) and (max-width:800px){
-	 
+	.banner{
+		height: auto;
+	}
 	.logo>h1>a{
 		font-size: 1rem;
 	}
@@ -583,7 +585,7 @@ img.logoGonvill {
 		padding: 2rem 1rem;
 	}
 	.textClubText{
-		padding: 1.7rem;
+		padding: 2.4rem;
 		font-size: 0.8rem;
 	}
 	.clubConversacionP{
