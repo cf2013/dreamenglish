@@ -67,6 +67,9 @@ ul {
 .img-md{
 	width: 5rem;
 }
+.img-gr{
+	width: 20rem;
+}
 .container{
 	max-width: 100%;
 }
@@ -146,7 +149,7 @@ ul {
 	height: 100vh;
 }
 .banner-text{
-	padding: 12% 10%;
+	padding: 5% 10%;
     text-align: right;
 }
 .banner-text>div>div>h3{
