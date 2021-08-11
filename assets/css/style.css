@@ -61,6 +61,9 @@ ul {
 	vertical-align: middle;
 }
 /* global */
+.text-bold{
+	font-weight: bold;
+}
 .img-sm{
 	width: 2rem;
 }
@@ -84,6 +87,17 @@ ul {
 }
 .text-purple{
 	color:#d304a6
+}
+.section2_1{
+	margin:3rem;
+	text-align: center;
+}
+button.masInfo{
+	text-align: center;
+	margin: auto;
+}
+.masInfo a{
+	color: black;
 }
 .section3{
 	margin-top: 5%;
@@ -174,6 +188,61 @@ ul {
 	margin: 0.5rem 1rem;
 }
 /*////////// banner */
+/* /////Modal///////// */
+
+/* The Modal (background) */
+.modal {
+	display: none; /* Hidden by default */
+	position: fixed; /* Stay in place */
+	z-index: 1; /* Sit on top */
+	left: 0;
+	top: 0;
+	width: 100%; /* Full width */
+	height: 100%; /* Full height */
+	overflow: auto; /* Enable scroll if needed */
+	background-color: rgb(0,0,0); /* Fallback color */
+	background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+	background-color: #fefefe;
+	margin: 20% auto; /* 15% from the top and centered */
+	padding: 20px;
+	border: 1px solid #888;
+	width: 65%; /* Could be more or less, depending on screen size */
+	text-align: justify; 
+  }
+  .modal-content h2{
+	text-align: center;
+    background: #17a2b8;
+    color: white;
+    margin-bottom: 2%;
+  }
+  /* The Close Button */
+  .close {
+	color: #aaa;
+	float: right;
+	font-size: 28px;
+	font-weight: bold;
+	text-align: end;
+  }
+  
+  .close:hover,
+  .close:focus {
+	color: black;
+	text-decoration: none;
+	cursor: pointer;
+  }
+  .imgIntensivos{
+	text-align: right;
+  }
+  .imgIntensivos img{
+	width: 25rem;
+    margin-top: 10%;
+    margin-left: -42%;
+  }
+/* /////////////////// */
 /* seccion2 */
 
 .section2 p{
@@ -252,7 +321,7 @@ ul {
 }
 .contentSection4 img{
 	height: auto;
-    width: 35rem;
+    width: 34rem;
     float: right;
     margin-right: -5rem;
     margin-top: 2rem;
@@ -275,7 +344,7 @@ ul {
     padding: 0rem 2rem;
 }
 .textClubText{
-	padding: 3.5rem;
+	padding: 3.2rem;
 	text-align: justify;
 	font-family: ralewayBold;
 }
@@ -347,6 +416,10 @@ ul {
 .costos p{
 	font-family: montserratRegular;
 	text-align: end;
+}
+.costos p.costosVigencia{
+	font-size: 0.8rem;
+    color: darkgrey;
 }
 /* //////section6 */
 /* section7 */
