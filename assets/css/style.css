@@ -554,6 +554,41 @@ img.logoGonvill {
 }
 /* RESPONSIVE */
  @media (max-width:600px){
+	.cuadradoInicio{
+		width: 80%;
+		padding: 15%;
+	}
+	.cuadradoInicio h1{
+		font-size: 1.8rem;
+	}
+	.cuadradoInicio h4{
+		font-size: 1.2rem;
+	}
+	.cuadradoInicio p{
+		font-size: 1rem;
+	}
+	.section2_1{
+		margin: 1rem;
+	}
+	.cursoIntensivo h2{
+		font-size: 1rem;
+    	margin-bottom: 10%;
+	}
+	.modal-content{
+		width: 90%;
+	}
+	.rectanguloInfo{
+		width:89%;
+		background-color: transparent;
+	}
+	.rectanguloInfo p{
+		font-size: 0.8em;
+	}
+	.modal-content h2{
+		margin-left: 0;
+		padding: 5% 4%;
+		margin-top: 20%;
+	}
 	nav{
 		height: 4rem;
 	}
@@ -721,6 +756,10 @@ img.logoGonvill {
 	.banner-text{
 		padding: 12% 10%;
 	}
+	.modal-content h2{
+		margin-left: 0;
+		padding: 5% 8%;
+	}
 	.section2> div> h2{
 		font-size: 1.2rem;
 		margin: 0rem 1rem;
@@ -763,6 +802,14 @@ img.logoGonvill {
 	}
  }
  @media(min-width:801px) and (max-width:1025px){
+	.modal-content h2{
+		font-size: 1rem;
+	}
+	.rectanguloInfo{
+		margin-top: 13%;
+    	padding: 0.5%;
+    	width: 91%;
+	}
 	.textClub{
 		padding: 2rem 1rem;
 	}
