@@ -260,10 +260,23 @@ button.masInfo{
 	text-align: justify; 
   }
   .modal-content h2{
-	text-align: center;
-    background: #17a2b8;
+	text-align: start;
+    background: #7ED0FF;
     color: white;
-    margin-bottom: 2%;
+    padding: 5% 15%;
+    margin-left: -25%;
+    margin-top: 5%;
+    font-family: 'montserratBold';
+    font-size: 1.4rem;
+  }
+  .textInfoModal p{
+	  margin: 3%;
+	  font-family: 'montserratBold';
+	  font-size: 0.9rem;
+  }
+  .textInfoModal p.textIntro{
+	font-family: montserratRegular;
+	margin-bottom: 10%;
   }
   /* The Close Button */
   .close {
@@ -287,6 +300,19 @@ button.masInfo{
 	width: 25rem;
     margin-top: 10%;
     margin-left: -42%;
+  }
+  .rectanguloInfo{
+	background-color: #7ED0FF;
+    position: absolute;
+    margin-top: -30%;
+    padding: 1.5%;
+    width: 90%;
+  }
+  .rectanguloInfo p{
+	color: white;
+    font-family: 'montserratBold';
+    margin: 2%;
+    text-align: start;
   }
 /* /////////////////// */
 /* seccion2 */
