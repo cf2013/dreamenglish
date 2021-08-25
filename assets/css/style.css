@@ -148,6 +148,14 @@ button.masInfo{
 	nav a{
 		color: white;
 	}
+	.imgLogo{
+		margin: auto;
+    	text-align: center;
+		margin-bottom: 2rem;
+	}
+	#logoDreamBanner{
+		width: 10rem;
+	}
 	.logo>h1, .logo img{
 		margin: auto 1rem!important;
 	}
@@ -157,10 +165,12 @@ button.masInfo{
 	}
 	/*--///// header --*/
 .banner{
-	background-image: url(/assets/imgs/home-office-4980353_1920.jpg);
-	background-position: center;
+	background-image: url(/assets/imgs/people-2591874_1920.jpg);
+	background-position: center 86%;
 	background-repeat: no-repeat;
+	background-size: cover;
 	height: 100vh;
+	width: 100%;
 }
 .banner-text{
 	padding: 5% 10%;
@@ -174,6 +184,42 @@ button.masInfo{
 }
 .banner-text>div>div>p{
 	display: none;
+}
+.cuadradoInicio{
+	background: white;
+    width: 35%;
+    margin-left: 10%;
+    margin-top: 10;
+    padding: 3%;
+}
+.cuadradoInicio h1{
+    font-weight: 100;
+    margin: auto;
+    text-align: center;
+    font-family: 'montserratLight';
+    font-size: 2.9rem;
+}
+.cuadradoInicio h4{
+	font-size: 1.8rem;
+    margin: auto;
+    text-align: center;
+    font-family: 'montserratLight';
+    margin-top: 6%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.cuadradoInicio p{
+	text-align: center;
+    margin: 5%;
+    font-size: 1.3rem;
+}
+.redesSociales{
+	margin: auto;
+    text-align: center;
+}
+.redesSociales img{
+	width:2.5rem;
+	margin: 3%;
 }
 .contactanos-media>ul{
 	margin: 0!important;
