@@ -274,6 +274,10 @@ button.masInfo{
 	  font-family: 'montserratBold';
 	  font-size: 0.9rem;
   }
+  .restriccion p{
+	font-family: 'ralewayRegular';
+    font-size: 0.6rem;
+  }
   .textInfoModal p.textIntro{
 	font-family: montserratRegular;
 	margin-bottom: 10%;
