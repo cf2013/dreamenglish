@@ -5,7 +5,7 @@ var modal = document.getElementById("myModal");
 var btn = document.getElementById("myBtn");
 
 // Get the modal
-var modal = document.getElementById("myModal2");
+var modal2 = document.getElementById("myModal2");
 
 // Get the button that opens the modal
 var btn2 = document.getElementById("myBtn2");
