@@ -1,0 +1,185 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+@font-face{
+    font-family: poppinsBold;
+    src: url("/resources/fonts/Poppins-Bold.ttf");
+}
+@font-face {
+    font-family: poppinsRegular;
+    src: url("/resources/fonts/Poppins-Regular.ttf");
+}
+@font-face {
+    font-family: poppinsThin;
+    src: url("/resources/fonts/Poppins-Thin.ttf");
+}
+/*Global*/
+p, span, li{
+    font-family: "poppinsRegular";
+}
+/* ----- */
+.bgBanner{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0,0,0,0.8)), url(/resources/imgs/dreamPortada.png);
+    background-size:cover;
+    height: 100vh;
+    background-position: center;
+}
+.banner{
+    width: 50%;
+    padding: 1rem 0rem 1rem 6rem;
+}
+p.suenoPosible{
+    float: right;
+    display: block;
+    text-align: end;
+    margin-right: 20%;
+    font-size: 1.2rem;
+}
+p.descripcionBanner{
+    width: 80%;
+    font-family: "poppinsRegular";
+}
+img.logoSmall{
+    display: none;
+}
+img.logo{
+    width: 40%;
+    margin: 1rem;
+    margin-left: 5rem;
+}
+.enlacesNav{
+    align-self: center;
+}
+ul{
+    color: white;
+    list-style: none;
+    display: inline-flex;
+    float: right;
+    justify-content: space-between;
+    width: 60%;
+    margin-right: 2rem;
+}
+a> li{
+    color: white;
+}
+.banner h1, .banner p{
+    color: white;
+    padding: 0;
+}
+.banner h1{
+    font-family: "poppinsBold";
+    font-size: 4.5rem;
+}
+.colorDpurple{
+    color:#8E62FF;
+}
+.imgSmall{
+    width: 3rem;
+}
+.bannerContacto{
+    margin-top: 3rem;
+}
+.btnComenzar{
+    background-color: #8E62FF;
+    color: white;
+    border-style: none;
+    font-weight: bold;
+    margin-left: 6rem;
+}
+.saberMas span{
+    margin-right: 2rem;
+}
+@media only screen and (max-width: 600px) {
+    img.logo, .enlacesNav{
+        display: none;
+    }
+    img.logoSmall{
+        display: block;
+        width: 40%;
+    }
+    .banner {
+        width: 100%;
+        padding: 0rem 0rem 0rem 3rem;
+        margin-top: 10rem;
+    }
+    .banner h1{
+        font-size: 2rem;
+    }
+    p.suenoPosible{
+        display: none;
+    }
+    p.descripcionBanner{
+        font-size: 0.8rem;
+        text-align: justify;
+        width: 72%;
+    }
+    .bannerContacto{
+        margin-top: 0rem;
+    }
+    .btnComenzar{
+        margin-left: 3rem; 
+    }
+    .btn-lg{
+        padding: 0.6rem 0.3rem!important;
+        font-size: 0.8rem!important;
+        line-height: 1.5!important;
+        border-radius: 0.3rem!important;
+    }
+    .saberMas span{
+        display: none;
+    }
+}
+@media only screen and (min-width: 601px) and (max-width:800px){
+    ul{
+        width: 100%;
+    }
+    img.logo {
+        width: 50%;
+        margin: 1rem;
+        margin-left: 0rem; 
+    } 
+    .banner h1{
+        font-size: 2.5rem;
+    }
+    p.suenoPosible{
+        margin-right: 15%;
+        font-size: 1rem;
+    }
+    p.descripcionBanner{
+        font-size: 0.9rem;
+    }
+    .bannerContacto {
+        margin-top: 2rem;
+    }
+}
+@media (min-width: 801px) and (max-width:1339px){
+    .banner{
+        width: 40%;
+    }
+    .banner h1{
+        font-size: 3rem;
+    }
+    p.suenoPosible{
+        font-size: 1rem;
+    }
+    p.descripcionBanner{
+        font-size: 0.8rem;
+    }
+}
+@media (min-width: 1340px) and (max-width:1439px){
+    .banner{
+        width: 38%;
+    }
+    .banner h1{
+        font-size: 3rem;
+    }
+    p.suenoPosible{
+        font-size: 1.2rem;
+        margin: 1rem 6rem;
+    }
+    p.descripcionBanner{
+        font-size: 1rem;
+        margin: 1.5rem 0rem;
+    }
+}

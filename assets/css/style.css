@@ -3,25 +3,37 @@ body {
 	font-family: 'Ubuntu', sans-serif;
 	background: #fff;
 }
-@font-face{
-	font-family: montserratBold;
+/* @font-face{
+	font-family: poppinsBold;
 	src: url(../fonts/montserrat/Montserrat-Bold.ttf)
 }
 @font-face{
-	font-family: ralewayRegular;
+	font-family: poppinsRegular;
 	src: url(../fonts/raleway/Raleway-Regular.ttf);
 }
 @font-face{
-	font-family: ralewayBold;
+	font-family: poppinsBold;
 	src: url(../fonts/raleway/Raleway-Bold.ttf);
 }
 @font-face{
-	font-family: montserratLight;
+	font-family: poppinsThin;
 	src: url(../fonts/montserrat/Montserrat-Light.ttf);
 }
 @font-face{
 	font-family: montserratRegular;
 	src: url(../fonts/montserrat/Montserrat-Regular.ttf);
+} */
+@font-face{
+    font-family: poppinsBold;
+    src: url("/resources/fonts/Poppins-Bold.ttf");
+}
+@font-face {
+    font-family: poppinsRegular;
+    src: url("/resources/fonts/Poppins-Regular.ttf");
+}
+@font-face {
+    font-family: poppinsThin;
+    src: url("/resources/fonts/Poppins-Thin.ttf");
 }
 body a,
 .slider-info a {
@@ -45,14 +57,14 @@ h4,
 h5,
 h6 {
 	margin: 0;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'poppinsRegular', sans-serif;
 }
 p {
 	margin: 0;
 	color: #333;
-	font-size: 1em;
+	font-size: 1.1em;
 	line-height: 1.8;
-	font-family: ralewayRegular;
+	font-family: poppinsRegular;
 }
 ul {
 	list-style-type: none;
@@ -76,17 +88,29 @@ ul {
 .container{
 	max-width: 100%;
 }
-.containerBanner{
+/* .containerBanner{
 	background-color: #00000094;
+} */
+
+.text-morado{
+	color: #4B17FC!important;
 }
-.text-blue{
-	color: #17a2b8;
+.text-moradoOscuro{
+	color: #3A40B6!important;
 }
-.text-blue-sky{
+/* .text-blue-sky{
 	color: #3ee3e4;
+} */
+.text-lila{
+	color:#8E62FF;
 }
-.text-purple{
-	color:#d304a6
+.text-lilaOscuro{
+	color: #7D55C7;
+}
+.textModal{
+	margin: 3%;
+    font-family: 'poppinsBold';
+    font-size: 0.9rem;
 }
 .section2_1{
 	margin:3rem;
@@ -111,9 +135,9 @@ button.masInfo{
 		float: right;
 		font-size: 0.9rem;
 	}
-	ul> li{
-		font-family: ralewayRegular;
-	}
+	/* ul> li{
+		font-family: poppinsRegular;
+	} */
 	body a:hover {
 		text-decoration: none;
 	}
@@ -139,7 +163,7 @@ button.masInfo{
 	nav{
 		display: flex;
 		height: 5rem;
-		background: #000000d1;
+		/* background: #000000d1; */
 	}
 	.slider-bottom{
 		background: #0000008f;
@@ -160,11 +184,11 @@ button.masInfo{
 		margin: auto 1rem!important;
 	}
 	.logo>h1>a{
-		font-family: montserratBold;
+		font-family: poppinsBold;
 		font-size: 1.5rem;
 	}
 	/*--///// header --*/
-.banner{
+/* .banner{
 	background-image: url(/assets/imgs/people-2591874_1920.jpg);
 	background-position: center 86%;
 	background-repeat: no-repeat;
@@ -177,14 +201,14 @@ button.masInfo{
     text-align: right;
 }
 .banner-text>div>div>h3{
-	font-family: montserratBold;
+	font-family: poppinsBold;
 	font-size: 2.5rem;
 	width: 60%;
     float: right;
 }
 .banner-text>div>div>p{
 	display: none;
-}
+} */
 .cuadradoInicio{
 	background: white;
     width: 35%;
@@ -196,14 +220,14 @@ button.masInfo{
     font-weight: 100;
     margin: auto;
     text-align: center;
-    font-family: 'montserratLight';
+    font-family: 'poppinsThin';
     font-size: 2.9rem;
 }
 .cuadradoInicio h4{
 	font-size: 1.8rem;
     margin: auto;
     text-align: center;
-    font-family: 'montserratLight';
+    font-family: 'poppinsThin';
     margin-top: 6%;
     margin-left: 5%;
     margin-right: 5%;
@@ -261,27 +285,29 @@ button.masInfo{
   }
   .modal-content h2{
 	text-align: start;
-    background: #7ED0FF;
+    background: #8E62FF;
     color: white;
     padding: 5% 15%;
     margin-left: -25%;
     margin-top: 5%;
-    font-family: 'montserratBold';
+    font-family: 'poppinsBold';
     font-size: 1.4rem;
   }
   .textInfoModal p{
 	  margin: 3%;
-	  font-family: 'montserratBold';
+	  font-family: 'poppinsBold';
 	  font-size: 0.9rem;
   }
   .restriccion p{
-	font-family: 'ralewayRegular';
+	font-family: 'poppinsRegular';
     font-size: 0.6rem;
   }
   .textInfoModal p.textIntro{
-	font-family: montserratRegular;
+	font-family: poppinsRegular;
 	margin-bottom: 10%;
   }
+  /* modal2 */
+  
   /* The Close Button */
   .close {
 	color: #aaa;
@@ -297,6 +323,20 @@ button.masInfo{
 	text-decoration: none;
 	cursor: pointer;
   }
+  .close2 {
+	color: #aaa;
+	float: right;
+	font-size: 28px;
+	font-weight: bold;
+	text-align: end;
+  }
+  
+  .close2:hover,
+  .close2:focus {
+	color: black;
+	text-decoration: none;
+	cursor: pointer;
+  }
   .imgIntensivos{
 	text-align: right;
   }
@@ -306,15 +346,15 @@ button.masInfo{
     margin-left: -42%;
   }
   .rectanguloInfo{
-	background-color: #7ED0FF;
+	background-color: #8E62FF;
     position: absolute;
-    margin-top: -30%;
+    margin-top: -38%;
     padding: 1.5%;
     width: 90%;
   }
   .rectanguloInfo p{
 	color: white;
-    font-family: 'montserratBold';
+    font-family: 'poppinsBold';
     margin: 2%;
     text-align: start;
   }
@@ -322,8 +362,8 @@ button.masInfo{
 /* seccion2 */
 
 .section2 p{
-	font-size: 0.8em;
-	font-family: ralewayRegular;
+	font-size: 0.9em;
+	font-family: poppinsRegular;
 	color: black;
 }
 .section2> div> h2, .section2> div> p{
@@ -345,7 +385,7 @@ button.masInfo{
 }
 .section3>h1{
 	text-align: center;
-    background: #17a2b8;
+    background: #8E62FF;
     color: white;
 	padding: 1.1rem;
 	margin: 2rem 5rem;
@@ -384,11 +424,11 @@ button.masInfo{
 	height: -webkit-fill-available;
 }
 .bg-1{
-	background-color: #e84855;
+	background-color: #3A40B6;
 	height: fit-content;
 }
 .bg-2{
-	background-color: #17a2b8;
+	background-color: #8E62FF;
 	height: fit-content;
 }
 .contentSection4{
@@ -411,18 +451,18 @@ button.masInfo{
 }
 .contentSection4 h2{
 	font-size: 2.5rem;
-    font-family: montserratBold;
+    font-family: poppinsBold;
 	padding: 0.5rem 2rem;
 }
 .clubConversacionP{
 	font-size: 2rem;
-    font-family: montserratBold;
+    font-family: poppinsBold;
     padding: 0rem 2rem;
 }
 .textClubText{
-	padding: 3.2rem;
+	padding: 1.6rem;
 	text-align: justify;
-	font-family: ralewayBold;
+	font-family: poppinsBold;
 }
 /* /////section4 */
 /* section5 */
@@ -441,7 +481,7 @@ button.masInfo{
 	border-radius: 10px;
 }
 .whyDream h1{
-	font-family: montserratBold;
+	font-family: poppinsRegular;
 }
 .opiniones{
 	font-size: 2rem;
@@ -455,42 +495,43 @@ button.masInfo{
 	font-size: 0.9em;
 }
 .autorComentario{
-	color:#3ee3e4;
+	background-color:#00000029;
 	font-weight: bold;
+	color: white;
 }
 /*/////////// section5 */
 /* section6 */
 .section6 h1{
 	margin: 2rem auto;
 	text-align: center;
-	font-family: montserratBold;
+	font-family: poppinsBold;
 }
 .boxDate{
-	background-color:#7ed0ff;
+	background-color: #8E62FF;
     padding: 1.5rem;
     text-align: center;
 	margin: 1rem;
 	color: white;
-	font-family: montserratBold;
+	font-family: poppinsBold;
 }
 .turnos{
 	font-size: 1.5rem;
     margin: 1rem;
 	text-align: center;
-	font-family: montserratRegular;
+	font-family: poppinsRegular;
 }
 .hrs{
 	margin: 1rem;
 	text-align: center;
-	font-family: montserratRegular;
+	font-family: poppinsRegular;
 }
 .costos h4{
-	font-family: montserratBold;
+	font-family: poppinsBold;
 	text-align: end;
 	margin: 1rem;
 }
 .costos p{
-	font-family: montserratRegular;
+	font-family: poppinsRegular;
 	text-align: end;
 }
 .costos p.costosVigencia{
@@ -513,14 +554,14 @@ button.masInfo{
     margin: 2rem auto;
 	font-size: 2.5rem;
 	color: white;
-	font-family: montserratBold;
+	font-family: poppinsRegular;
 }
 .section7 p{
 	padding: 3rem;
 	font-size: 1.1rem;
 	text-align: center;
 	color: white;
-	font-family: montserratRegular;
+	font-family: poppinsRegular;
 }
 /* /////section7 */
 /* section8 */
@@ -539,7 +580,11 @@ button.masInfo{
 	font-size: 1.8rem;
 	margin: auto;
 }
-
+/* modal2 */
+ul.listaValores{
+	width: 90%;
+	padding: 0;
+}
 /* ////section8 */
 footer{
 	background:black;
@@ -572,7 +617,7 @@ img.logoGonvill {
 		font-size: 1rem;
 	}
 	.section2_1{
-		margin: 1rem;
+		margin: 1rem 0rem;
 	}
 	.cursoIntensivo h2{
 		font-size: 1rem;
@@ -614,7 +659,7 @@ img.logoGonvill {
 	.logo>h1>a{
 	font-size: 1.2rem;
 	}
-	.banner{
+	/* .banner{
 	background-size: cover;
 	}
 	.banner-text>div>div>h3{
@@ -622,7 +667,7 @@ img.logoGonvill {
 	}
 	.banner-text{
 		padding: 30% 3%;
-	}
+	} */
 	.section3>h1{
 		padding: 0rem;
     	margin: 1rem 0rem;
@@ -721,7 +766,7 @@ img.logoGonvill {
     	font-size: 0.7rem;
 	}
 	.section8 h2{
-		font-size: 1.8rem;
+		font-size: 1.4rem;
 	}
 	img.cartera{
 		display: none;
@@ -751,15 +796,15 @@ img.logoGonvill {
 	}
  }
  @media(min-width:601px) and (max-width:800px){
-	.banner{
+	/* .banner{
 		height: auto;
-	}
+	} */
 	.logo>h1>a{
 		font-size: 1rem;
 	}
-	.banner-text{
+	/* .banner-text{
 		padding: 12% 10%;
-	}
+	} */
 	.modal-content h2{
 		margin-left: 0;
 		padding: 5% 8%;
