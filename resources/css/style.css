@@ -90,6 +90,11 @@ a> li{
 .saberMas span{
     margin-right: 2rem;
 }
+button.intensivo{
+    border: none!important;
+    background: none!important;
+    float: right!important;
+}
 @media only screen and (max-width: 600px) {
     img.logo, .enlacesNav{
         display: none;

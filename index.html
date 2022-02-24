@@ -96,9 +96,9 @@
                 </div>
                 <div class="col-6 enlacesNav">
                     <ul>
-                        <a href=""><li>Nosotros</li></a>
-                        <a href=""><li>Cursos</li></a>
-                        <a href=""><li>Costos</li></a>
+                        <a href="#Nosotros"><li>Nosotros</li></a>
+                        <a href="#Costos"><li>Cursos</li></a>
+                        <a href="#Costos"><li>Costos</li></a>
                     </ul>
                 </div>
             </div>
@@ -128,7 +128,7 @@
     </div>
      <!-- seccion 2 -->
      <div class="container">
-         <div class="row section2 infoPresentacion">
+         <div class="row section2 infoPresentacion" id="Nosotros">
              <div class="col-12 col-md-4 "><img class="w-100" src="/assets/imgs/laptop-women-kitchen.jpg" alt="" srcset=""></div>
              <div class="col-12 col-md-4 text-morado"><h2>Learn fast with our monthly courses</h2><p>Cada nivel tiene una duración de 3 semanas y 2 días, con clases de lunes a viernes de 80 minutos cada una + 15 minutos de trabajo individual.</p></div>
              <div class="col-12 col-md-4 "><img class="w-100" src="/assets/imgs/man-rolling-chair.jpg" alt="" srcset=""></div>
@@ -141,8 +141,8 @@
          
      </div>
      <div class="container">
-         <div class="row section2_1 cursoIntensivo">
-            <div class="col-12 text-morado"><h2>¿Estás muy ocupado, pero necesitas aprender inglés?</h2><p>¡Inscríbete a nuestro curso intensivo personalizado en el que avanzas a tu ritmo y eliges tus horarios!</p></div>
+         <div class="row section2_1 cursoIntensivo" id="cursoIntensivo">
+            <div class="col-12 text-morado"><h2>¿Estás muy ocupado, pero necesitas aprender inglés?</h2><p>¡Inscríbete a nuestro <span class="font-weight-bold">curso intensivo personalizado</span> en el que avanzas a tu ritmo y eliges tus horarios!</p></div>
             <button class="btn masInfo" id="myBtn">Más información aquí</button>
             <!-- The Modal -->
             <div id="myModal" class="modal">
@@ -318,7 +318,7 @@
      </div>
      <!-- //seccion 5 -->
      <!-- seccion 6 -->
-     <div class="container section6">
+     <div class="container section6" id="Costos">
          <div class="row">
              <div class="col-12 col-md-6">
                  <h1 class="text-lila">Próximos <span class="text-morado">cursos</span></h1>
@@ -343,15 +343,23 @@
                  <h1 class="text-morado">Costos</h1>
                  <div class="">
                      <h4>Cursos regulares de avance rapido:</h4>
-                     <p>*$1320mxn por nivel e incluye servicios adicionales opcionales: </p>
+                     <p><span class="font-weight-bold">*$1320mxn</span> por nivel e incluye servicios adicionales opcionales: </p>
                      <p>club de lectura y llamada sorpresa.</p>
                      <p class="costosVigencia">*precios vigentes hasta el 31 de agosto 2022</p>
                  </div>
                  <div class="">
                     <h4>Sesiones de conversación:</h4>
-                        <p>1 hora diaria de lunes a viernes: semanal $750 mxn o quincenal: $1200 mxn</p>
-                        <p>Bajo demanda con maestro de tu elección: $200 mxn por hora</p>
-                    <h4>Curso intensivo personalizado $6,250 mxn</h4>
+                    <p>1 hora diaria de lunes a viernes: </p>
+                    <p><span class="font-weight-bold">$750 mxn</span> o quincenal: <span class="font-weight-bold">$1200 mxn</span>
+                    </p>
+                    <p>Bajo demanda con maestro de tu elección: <span class="font-weight-bold">$200 mxn</span> por hora
+                    </p>
+                    <!-- <a href="#myModal/?modal=true" class="text-lilaOscuro">
+                    </a> -->
+                    <button class="intensivo" id="" onclick="document.getElementById('myModal').style.display='block'">
+                        <h4 class="instensivoTitle">Curso intensivo personalizado</h4>
+                    </button>
+                    
                  </div>
              </div>
          </div>
@@ -438,18 +446,18 @@
                             <p>
                                 <span class="text-lila">Misión: Dream English</span> tiene como misión facilitar la enseñanza del idioma inglés con un enfoque practico en las motivaciones de nuestros alumnos, apegado a un método de enseñanza de alta calidad, manteniendo al aprendizaje como eje central de nuestras directivas y acciones pero considerando y ejercitando nuestros valores para cada acción.
                                 Aprovechamos los medios digitales para facilitar el aprendizaje considerando, fomentando y aprovechando la diversidad e inclusión. <br>
-                                
                             </p> 
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-12 textInfoModal">
                             <p>
                                 <span class="text-lila">Visión: Dream English</span> medio del ejercicio de nuestros valores, el trabajo enfocado en el cliente y el apalancamiento en las nuevas tecnologías Dream English tiene como objetivo ser una referencia para el aprendizaje del idioma inglés. <br>
                             </p>
                                 
                         </div>
                     </div>
+                    <!-- <div class="row">
+                        <div class="col-12 textInfoModal">
+                            
+                        </div>
+                    </div> -->
                     <div class="row">
                         <span class="row text-lila textModal">Valores: Dream English</span><br>
                         <div class="row">
@@ -496,7 +504,7 @@
                 <p>Localización:</p>
                 <p>Guadalajara, Jalisco.</p>
                 <p>Contáctanos: whatsapp: </p> 
-                    <p class="text-lilaOscuro"> <img class="img-sm" src="/assets/imgs/whatsapp-icono.png" alt="" srcset="">331 438 9162</p>
+                    <p class="text-lilaOscuro"><a href="https://wa.me/5213314389162?text=Me%20interesa%20saber%20más"><img class="img-sm" src="/resources/imgs/dreamWhatsapp.png" alt="" srcset=""></a>   331 438 9162</p>
                 <p>Email: <span class="text-lilaOscuro">dream.english.contact@gmail.com</span></p>
              </div>
              <div class="col-4">
@@ -509,11 +517,12 @@
          </div>
          <div class="row">
             <p class="col-4">© El nombre y el logotipo de Dream English son una marca registrada</p>
-            <div class="col-4 d-inline-flex">
-                <p class="font-weight-bold">Síguenos en:</p>
-                <span class="">
-                    <a href="https://www.facebook.com/dreamenglishmx/"><img src="/assets/imgs/facebook-logo.png" alt="" srcset="" class="img-sm"></a>
-                    <a href="http://instagram.com/dreamenglishmx"><img src="/assets/imgs/instagram-logo.png" alt="" srcset="" class="img-sm"></a>
+            <div class="col-4 d-inline-flex siguenosEn">
+                <p class="font-weight-bold">Síguenos en: </p>
+                <span class="ml-3">
+                    <a href="https://www.facebook.com/dreamenglishmx/"><img src="/resources/imgs/dreamFacebook.png" alt="" srcset="" class="img-sm"></a>
+                    <a href="http://instagram.com/dreamenglishmx"><img src="/resources/imgs/dreamInstagram.png" alt="" srcset="" class="img-sm"></a>
+                    <a href="http://twitter.com/@dreamenglishmx"><img src="/resources/imgs/dreamTwitter.png" alt="" srcset="" class="img-sm"></a>
                 </span>
             </div>
             <a class="col-4" href="https://www.linkedin.com/in/leonor-ram%C3%ADrez-gloria-3b26011a0/"><p>Sitio web desarrollado por: Leonor Ramírez</p></a>

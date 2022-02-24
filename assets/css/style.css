@@ -1,3 +1,6 @@
+html{
+	scroll-behavior: smooth;
+}
 body {
 	margin: 0;
 	font-family: 'Ubuntu', sans-serif;
@@ -277,7 +280,7 @@ button.masInfo{
   /* Modal Content/Box */
   .modal-content {
 	background-color: #fefefe;
-	margin: 20% auto; /* 15% from the top and centered */
+	margin: 2% 20% auto; 
 	padding: 20px;
 	border: 1px solid #888;
 	width: 65%; /* Could be more or less, depending on screen size */
@@ -307,7 +310,10 @@ button.masInfo{
 	margin-bottom: 10%;
   }
   /* modal2 */
-  
+  h2.rectanguloInfo2 {
+	font-size: 1.5rem!important;
+  }
+
   /* The Close Button */
   .close {
 	color: #aaa;
@@ -768,6 +774,7 @@ img.logoGonvill {
 	.section8 h2{
 		font-size: 1.4rem;
 	}
+	
 	img.cartera{
 		display: none;
 	}
