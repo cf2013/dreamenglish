@@ -188,3 +188,30 @@ button.intensivo{
         margin: 1.5rem 0rem;
     }
 }
+@media (min-width: 1440px){
+    body {
+        margin: 0;
+        padding: 0rem 35rem;
+        overflow-x: hidden!important;
+    }
+    .contentSection4 {
+        display: inline-flex;
+        margin: 3.5rem;
+        overflow-x: hidden;
+    }
+    .contentSection4 img {
+        height: auto;
+        width: 34rem;
+        float: right;
+        margin-right: 0rem;
+        margin-left: 0rem;
+        margin-top: 2rem;
+    }
+    /* .containerBox-1, .containerBox-2 {
+        height: 32rem;
+        overflow-x: hidden!important;
+    } */
+    .textClub{
+        padding: 2rem 8.6rem 0rem 0rem;
+    }
+}
