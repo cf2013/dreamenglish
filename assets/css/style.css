@@ -410,10 +410,19 @@ button.masInfo{
 .section3>div>.textSection3>h2, .section3>div>.textSection3>p{
 	margin: 1.5rem!important;
 }
+a.enlaceLibros{
+	font-family: poppinsRegular;
+	font-size: 1.2rem;
+	text-align: center;
+	margin: auto;
+	align-content: center;
+    display: block;
+}
 /* section4 */
 .section4{
 	margin: 0!important;
     padding: 0!important;
+	height:100vh;
 }
 .containerBox-1, .containerBox-2{
 	padding: 0;
@@ -425,21 +434,24 @@ button.masInfo{
 	display: inline-flex;
 	margin: 0!important;
 	padding: 0!important;
-	position: absolute;
 	z-index: -1;
 	height: -webkit-fill-available;
 }
 .bg-1{
 	background-color: #3A40B6;
 	height: fit-content;
+	z-index: -1;
 }
 .bg-2{
 	background-color: #8E62FF;
 	height: fit-content;
+	z-index: -1;
 }
 .contentSection4{
 	display: inline-flex;
 	margin: 2.5rem;
+	position: absolute;
+	z-index: 2;
 }
 .contentSection4 img{
 	height: auto;
@@ -858,6 +870,13 @@ img.logoGonvill {
 	}
  }
  @media(min-width:801px) and (max-width:1025px){
+	.contentSection4 img{
+		height: auto;
+		width: 38rem;
+		float: right;
+		margin-right: -9rem;
+		margin-top: 2rem;
+	}	 
 	.modal-content h2{
 		font-size: 1rem;
 	}
