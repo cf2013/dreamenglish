@@ -559,9 +559,10 @@ a.enlaceLibros{
 /* //////section6 */
 /* section7 */
 .section7{
-	background-image: url(../imgs/computer.jpg);
+	background-image: url(../../resources/imgs/dreamRemoto.png);
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: 100%;
+	background-position: center;
 	padding: 3.5rem;
 }
 .bg-blacktrans{
