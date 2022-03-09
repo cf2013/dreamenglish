@@ -171,6 +171,25 @@ button.intensivo{
     p.descripcionBanner{
         font-size: 0.8rem;
     }
+    /* section4 */
+    .textClub{
+        padding: 0rem 0rem;
+    }
+    .contentSection4 h2{
+        padding: 0.5rem 1rem;
+    }
+    .clubConversacionP{
+        font-size: 1.5rem;
+        padding: 0rem 1rem;
+    }
+    .textClubText{
+        padding: 1.6rem;
+    }
+    .contentSection4 img{
+        width: 32.6rem;
+        margin-right: -1rem;
+        margin-top: 0rem;
+    }
 }
 @media (min-width: 1340px) and (max-width:2000px){
     .banner{
@@ -224,5 +243,8 @@ button.intensivo{
     } */
     .textClub{
         padding: 2rem 8.6rem 0rem 0rem;
+    }
+    .section4{
+        height:auto;
     }
 }

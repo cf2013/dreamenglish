@@ -454,28 +454,28 @@ a.enlaceLibros{
 	z-index: 2;
 }
 .contentSection4 img{
-	height: auto;
-    width: 34rem;
-    float: right;
-    margin-right: -5rem;
-    margin-top: 2rem;
+	/* height: auto; */
+    width: 100vh;
+    /* float: right; */
+    /* margin-right: -5rem; */
+    /* margin-top: 2rem; */
 }
 .containerBox-1, .containerBox-2{
 	height: 37rem;
 }
 .textClub{
 	/* margin: 2rem 0rem 0rem; */
-	padding: 2rem 4rem;
+	background-color: white;
 }
 .contentSection4 h2{
 	font-size: 2.5rem;
     font-family: poppinsBold;
-	padding: 0.5rem 2rem;
+	padding: 0.5rem 0.5rem;
 }
 .clubConversacionP{
 	font-size: 2rem;
     font-family: poppinsBold;
-    padding: 0rem 2rem;
+    padding: 0rem 0.5rem
 }
 .textClubText{
 	padding: 1.6rem;
@@ -705,7 +705,7 @@ img.logoGonvill {
 		height: 250px;
 	}
 	.contentSection4 img{
-		width: 16rem;
+		width: 100%;
 		float: none;
 		margin-right: 0;
 		margin-top: 0;
@@ -714,7 +714,7 @@ img.logoGonvill {
 		height: 47rem;
 	}
 	.textClub{
-		padding: 1rem;
+		margin: 0.5rem 0rem;
 	}
 	.contentSection4{
 		margin: 1rem;
@@ -837,19 +837,19 @@ img.logoGonvill {
 		margin: 0rem 1rem;
     	font-size: 0.7em;
 	}
-	.textClub{
+	/* .textClub{
 		padding: 2rem 1rem;
-	}
+	} */
 	.textClubText{
-		padding: 2.4rem;
+		padding: 0.5rem;
 		font-size: 0.8rem;
 	}
 	.clubConversacionP{
 		font-size: 1.3rem;
 	}
 	.contentSection4 h2{
-		font-size: 2rem;
-		padding: 0.7rem 2rem;
+		font-size: 1.5rem;
+		padding: 0.5rem 1rem;
 	}
 	img.cartera{
 		object-fit: none;
