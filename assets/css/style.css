@@ -421,8 +421,11 @@ a.enlaceLibros{
 /* section4 */
 .section4{
 	margin: 0!important;
-    padding: 0!important;
-	height:100vh;
+	padding: 0!important;
+    height: auto;
+    vertical-align: middle;
+    margin: auto;
+    align-items: center;
 }
 .containerBox-1, .containerBox-2{
 	padding: 0;
@@ -439,26 +442,26 @@ a.enlaceLibros{
 }
 .bg-1{
 	background-color: #3A40B6;
-	height: fit-content;
-	z-index: -1;
 }
 .bg-2{
 	background-color: #8E62FF;
-	height: fit-content;
-	z-index: -1;
 }
 .contentSection4{
 	display: inline-flex;
-	margin: 2.5rem;
-	position: absolute;
 	z-index: 2;
 }
+.imgConversacion{
+	margin: auto;
+	display: block;
+}
 .contentSection4 img{
-	/* height: auto; */
     width: 100vh;
-    /* float: right; */
-    /* margin-right: -5rem; */
-    /* margin-top: 2rem; */
+	padding: 3rem;
+}
+.boxConversacion{
+	margin: auto;
+	display: block;
+	padding: 3rem;
 }
 .containerBox-1, .containerBox-2{
 	height: 37rem;
@@ -470,17 +473,17 @@ a.enlaceLibros{
 .contentSection4 h2{
 	font-size: 2.5rem;
     font-family: poppinsBold;
-	padding: 0.5rem 0.5rem;
+    padding: 0.5rem 1.5rem;
 }
 .clubConversacionP{
 	font-size: 2rem;
     font-family: poppinsBold;
-    padding: 0rem 0.5rem
+    padding: 0rem 1.5rem;
 }
 .textClubText{
-	padding: 1.6rem;
-	text-align: justify;
-	font-family: poppinsBold;
+	padding: 2.1rem 1.5rem;
+    text-align: justify;
+    font-family: poppinsBold;
 }
 /* /////section4 */
 /* section5 */
@@ -577,10 +580,10 @@ a.enlaceLibros{
 }
 .section7 p{
 	padding: 3rem;
-	font-size: 1.1rem;
-	text-align: center;
-	color: white;
-	font-family: poppinsRegular;
+    font-size: 1.2rem;
+    text-align: center;
+    color: white;
+    font-family: poppinsRegular;
 }
 /* /////section7 */
 /* section8 */
@@ -717,7 +720,7 @@ img.logoGonvill {
 		margin: 0.5rem 0rem;
 	}
 	.contentSection4{
-		margin: 1rem;
+		/* margin: 1rem; */
 	}
 	.contentSection4 h2{
 		font-size: 1.2rem;
