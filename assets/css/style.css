@@ -645,9 +645,9 @@ img.logoGonvill {
 		font-size: 1rem;
     	margin-bottom: 10%;
 	}
-	.modal-content{
+	/* .modal-content{
 		width: 90%;
-	}
+	} */
 	.rectanguloInfo{
 		width:89%;
 		background-color: transparent;
@@ -744,7 +744,7 @@ img.logoGonvill {
 		padding: 0!important;
 	}
 	.section5 p{
-		font-size: 0.6rem;
+		font-size: 0.8rem;
 	}
 	.textWhy{
 		padding: 0.5rem;
@@ -784,8 +784,8 @@ img.logoGonvill {
     	font-size: 1.5rem;
 	}
 	.section7 p{
-		padding: 0.5rem;
-    	font-size: 0.7rem;
+		padding: 0.1rem;
+		font-size: 0.8rem;
 	}
 	.section8 h2{
 		font-size: 1.4rem;
