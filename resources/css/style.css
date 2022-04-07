@@ -97,6 +97,10 @@ button.intensivo{
 }
 @media only screen and (max-width: 600px) {
     .bgBanner{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0,0,0,0.8)), url(/resources/imgs/dreamPortadaSmallDevices.png);
+        /* background-size:cover;
+        height: 100vh;
+        background-position: center; */
         height: auto;
         padding-bottom: 1rem;
     }
@@ -141,6 +145,11 @@ button.intensivo{
     }
 }
 @media only screen and (min-width: 601px) and (max-width:800px){
+    .bgBanner{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0,0,0,0.8)), url(/resources/imgs/dreamPortadaSmallDevices.png);
+        height: auto;
+        padding-bottom: 1rem;
+    }
     ul{
         width: 100%;
     }
@@ -164,6 +173,11 @@ button.intensivo{
     }
 }
 @media (min-width: 801px) and (max-width:1339px){
+    .bgBanner{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0,0,0,0.8)), url(/resources/imgs/dreamPortadaMediumDevices.png);
+        height: auto;
+        padding-bottom: 1rem;
+    }
     .banner{
         width: 40%;
     }
@@ -197,6 +211,11 @@ button.intensivo{
     }
 }
 @media (min-width: 1340px) and (max-width:2000px){
+    .bgBanner{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0,0,0,0.8)), url(/resources/imgs/dreamPortadaLargeDevices.png);
+        height: 100vh;
+        padding-bottom: 1rem;
+    }
     .banner{
         width: 38%;
     }
