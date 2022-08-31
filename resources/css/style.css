@@ -71,6 +71,14 @@ a> li{
     font-family: "poppinsBold";
     font-size: 4.5rem;
 }
+.banner h2, .banner p{
+    color: white;
+    padding: 0;
+}
+.banner h2{
+    font-family: "poppinsBold";
+    font-size: 4.5rem;
+}
 .colorDpurple{
     color:#8E62FF;
 }
