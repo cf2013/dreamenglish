@@ -95,6 +95,12 @@ a> li{
     font-weight: bold;
     margin-left: 6rem;
 }
+.btnComenzar2{
+    background-color: #8E62FF;
+    color: white;
+    border-style: none;
+    font-weight: bold;
+}
 .saberMas span{
     margin-right: 2rem;
 }
@@ -141,6 +147,9 @@ button.intensivo{
     .btnComenzar{
         margin-left: 3rem; 
     }
+    .btnComenzar2{
+        margin-left: 1rem; 
+    }
     .btn-lg{
         padding: 0.6rem 0.3rem!important;
         font-size: 0.8rem!important;
@@ -149,7 +158,7 @@ button.intensivo{
     }
     .btn-Md{
         padding: 0.6rem 0.3rem!important;
-        font-size: 0.6rem!important;
+        font-size: 0.2rem!important;
         line-height: 1.0!important;
         border-radius: 0.3rem!important;
     }
