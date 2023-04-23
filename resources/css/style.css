@@ -71,6 +71,14 @@ a> li{
     color: white;
     padding: 0;
 }
+.banner h3{
+    font-family: "poppinsBold";
+    font-size: 3.5rem;
+}
+.banner h3, .banner p{
+    color: white;
+    padding: 0;
+}
 .banner h2{
     font-family: "poppinsBold";
     font-size: 4.5rem;
@@ -119,7 +127,7 @@ button.intensivo{
     }
     img.logoSmall{
         display: block;
-        width: 40%;
+        width: 50%;
     }
     .banner {
         width: 100%;
@@ -128,9 +136,6 @@ button.intensivo{
     }
     .banner h1{
         font-size: 2rem;
-    }
-    p.suenoPosible{
-        display: none;
     }
     p.descripcionBanner{
         font-size: 0.8rem;
