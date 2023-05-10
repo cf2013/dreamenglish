@@ -203,7 +203,7 @@ button.intensivo{
         margin-top: 2rem;
     }
 }
-@media (min-width: 801px) and (max-width:1339px){
+@media (min-width: 801px){
     .bgBanner{
         background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0,0,0,0.8)), url(/resources/imgs/dreamPortadaMediumDevices.png);
         height: auto;
@@ -258,10 +258,10 @@ button.intensivo{
         height: 100vh;
     }
     .banner h1 {
-        font-size: 6.5rem;
+        font-size: 2.5rem;
     }
     p.suenoPosible{
-        font-size: 2.5rem;
+        font-size: 1.5rem;
     }
     p.descripcionBanner{
         font-size: 0.8rem;
@@ -284,7 +284,7 @@ button.intensivo{
         overflow-x: hidden!important;
     } */
     .textClub{
-        padding: 2rem 8.6rem 0rem 0rem;
+        padding: 2rem 6.6rem 0rem 0rem;
     }
     .section4{
         height:auto;
